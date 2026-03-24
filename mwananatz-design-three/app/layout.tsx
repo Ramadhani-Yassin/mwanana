@@ -22,6 +22,13 @@ export const metadata: Metadata = {
     "Mwanana Communications — creative solutions and media communication excellence in Zanzibar.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: "cover",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
